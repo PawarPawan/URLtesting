@@ -1,0 +1,77 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+URI: http://192.168.1.5:3887/gambler
+Method: POST
+Parameter 1: [Name=gid, Value=xxx]
+Parameter 2: [Name=inout, Value=geo_in]
+Expected Output: true
+Output: [
+	Status Code: 200
+	Output value: true
+]
+Result: Output of the result and expected out are matched.
+Result: SUCCESS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+URI: http://192.168.1.5:3887/gambler
+Method: POST
+Parameter 1: [Name=gid, Value=xxx]
+Parameter 2: [Name=inout, Value=geo_out]
+Expected Output: true
+Output: [
+	Status Code: 200
+	Output value: true
+]
+Result: Output of the result and expected out are matched.
+Result: SUCCESS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+URI: http://192.168.1.5:3887/gambler
+Method: POST
+Parameter 1: [Name=gid, Value=xxx]
+Parameter 2: [Name=location, Value=First Floor, Table Number 9.]
+Expected Output: true
+Output: [
+	Status Code: 200
+	Output value: true
+]
+Result: Output of the result and expected out are matched.
+Result: SUCCESS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+URI: http://192.168.1.5:3887/make_call
+Method: POST
+Parameter 1: [Name=gmobile, Value=919993585256]
+Parameter 2: [Name=gname, Value=Pawan Pawar]
+Expected Output: true
+Output: [
+	Status Code: 200
+	Output value: true
+]
+Result: Output of the result and expected out are matched.
+Result: SUCCESS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+URI: http://192.168.1.5:3887/send_message
+Method: POST
+Parameter 1: [Name=gmobile, Value=919479489463]
+Parameter 2: [Name=gname, Value=Pawan Pawar]
+Expected Output: true
+Output: [
+	Status Code: 200
+	Output value: true
+]
+Result: Output of the result and expected out are matched.
+Result: SUCCESS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+URI: http://192.168.1.5:3887/order
+Method: POST
+Parameter 1: [Name=order, Value={"device_id": "xxxxxx","items" : [{ "item_id" : "21","item_name" : "Cold Coffee", "quantity" : "3", "img_url": "URL"}, {"item_id" : "22","item_name" : "Cold Coffee With IceCream","quantity" : "2","img_url": "URL"}]}
+				]
+Expected Output: true
+Output: [
+	Status Code: 200
+	Output value: true
+]
+Result: Output of the result and expected out are matched.
+Result: SUCCESS
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Total Number of Test: 6
+Number of SUCCESS Test: 6
+Number of FAILED Test: 0
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
