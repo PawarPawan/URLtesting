@@ -7,6 +7,14 @@ import org.jdom.Element;
 import org.jdom.JDOMException;
 import org.jdom.input.SAXBuilder;
 
+/**
+ * @author Pawan Pawar
+ * @project URLTesting
+ * @package
+ * @fileName CheckURLs.java
+ * @date 15-Mar-2015
+ * @time 1:08:39 pm
+ */
 public class ReadXMLFile {
 	@SuppressWarnings("rawtypes")
 	public static Tester[] read(File xmlFile) {
