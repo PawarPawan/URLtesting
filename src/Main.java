@@ -5,9 +5,9 @@ import java.io.IOException;
 /**
  * Developed By Pawan Pawar
  * 
- * @project StartCasino
+ * @project URLtesting
  * @package
- * @fileName SocketServer.java
+ * @fileName Main.java
  * @date 11-Mar-2015
  * @time 12:12:47 pm
  */
