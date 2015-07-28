@@ -15,7 +15,6 @@ public class Main{
 
 	/**
 	 * @method main
-	 * @description Socket Server Main program for starting the server.
 	 * @param args
 	 * @throws InterruptedException
 	 * @throws IOException
