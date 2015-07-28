@@ -1,5 +1,13 @@
 import java.util.Arrays;
 
+/**
+ * @author Pawan Pawar
+ * @project URLTesting
+ * @package
+ * @fileName Tester.java
+ * @date 15-Mar-2015
+ * @time 1:08:39 pm
+ */
 public class Tester {
 	private String uri = "";
 	private String[] param_name = null;
